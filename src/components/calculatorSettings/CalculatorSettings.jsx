@@ -12,7 +12,7 @@ const CalculatorSettings = ({onSubmit, onSliderChange, loan, interest}) => {
     {
       id: 'interest',
       label: 'Interest',
-      valueIcon: '$',
+      valueIcon: '%',
       min: '0.1',
       max: '15',
       step: '0.01',
